@@ -1,0 +1,13 @@
+.mainLine {
+    color: brown;
+    font-weight: bold;
+}
+
+li {
+    cursor: pointer;
+}
+
+li span:hover {
+    cursor: pointer;
+    font-weight: bold;
+}

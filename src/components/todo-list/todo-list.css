@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+    ul {
+        padding-left: 5px;
+    }
+}

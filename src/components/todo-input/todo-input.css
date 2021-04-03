@@ -1,0 +1,55 @@
+.block-item-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-input {
+    margin: 10px;
+    width: 65%;
+    box-shadow: 1px 2px 5px 2px #000;
+}
+
+@media screen and (max-width: 1400px) {
+    .todo-input {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .todo-input {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+    .block-item-search, .form-item-add {
+        flex-wrap: wrap;
+    }
+
+    .todo-input,
+    span.btn-group.mr-md-2.mb-2.mb-md-0 {
+        width: 100%;
+    }
+
+    span.btn-group.mr-md-2.mb-2.mb-md-0,
+    .form-item-add > .btn.btn-outline-primary  {
+        width: 173px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .form-item-add > .btn.btn-outline-primary {
+        width: 90%;
+    }
+}
+
+.btns-filter button {
+    box-shadow: 0 0 5px 1px #000;
+}
+
+.active {
+    background-color: blueviolet;
+    color: cornsilk;
+}
