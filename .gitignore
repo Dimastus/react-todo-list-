@@ -8,7 +8,9 @@
 # testing
 /coverage
 
-# production
+# public
+/pubic
+/src
 /build
 
 # misc
